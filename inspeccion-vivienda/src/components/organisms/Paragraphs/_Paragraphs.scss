@@ -1,0 +1,17 @@
+.prueba{
+    border-color: red;
+    border-width: 2px;
+    border-style: double;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #64BA42;
+    height: 3px; // Ajusta la altura deseada del divider
+    background: #64BA42;
+    width: 90%; // Ajusta el ancho deseado del divider
+    margin: 0 10px; // Ajusta el espacio entre el divider y otros elementos si es necesario
+  }
+  
