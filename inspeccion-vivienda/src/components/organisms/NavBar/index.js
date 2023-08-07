@@ -29,8 +29,8 @@ export default function NavBar() {
                         <span className="nav-item dropdown">
                             <span className="nav-link dropdown-toggle bi bi-person-circle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> </span>
                             <ul className="dropdown-menu dropdown-menu-end">
-                                <li><NavLink to={"/"} className={"dropdown-item text-primary bg-light"}>Login</NavLink></li>
-                                <li><NavLink to={"/"} className={"dropdown-item text-primary bg-light"}>Sign up</NavLink></li>
+                                <li><NavLink to={"/login"} className={"dropdown-item text-primary bg-light"}>Login</NavLink></li>
+                                <li><NavLink to={"/register"} className={"dropdown-item text-primary bg-light"}>Sign up</NavLink></li>
                                 <li><hr className="dropdown-divider" /></li>
                             </ul>
                         </span>

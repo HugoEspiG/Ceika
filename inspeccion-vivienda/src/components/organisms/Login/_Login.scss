@@ -1,0 +1,16 @@
+.divider2 {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:grey;
+}
+
+.divider2::before,
+.divider2::after {
+    content: "";
+    display: block;
+    background: grey;
+    width: 30%;
+    height:1px;
+    margin: 0 10px;
+}
